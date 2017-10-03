@@ -3,7 +3,7 @@ FROM jruby:9.1-jre-alpine
 LABEL build.publish.majorversion="1"
 LABEL build.publish.minorversion="0.1.1"
 LABEL build.publish.imagebase="jruby"
-LABEL build.publish.sequencergemversion="0.0.3"
+LABEL build.publish.sequencergemversion="0.0.5"
 
 ARG SEQUENCER_GEM_VERSION
 
