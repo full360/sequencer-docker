@@ -3,9 +3,9 @@ FROM jruby:9.1-jre-alpine
 LABEL build.publish.majorversion="1"
 LABEL build.publish.minorversion="0.1.1"
 LABEL build.publish.imagebase="jruby"
-LABEL build.publish.sequencergemversion="0.0.6"
+LABEL build.publish.sequencergemversion="0.0.7"
 
-ARG SEQUENCER_GEM_VERSION=0.0.6
+ARG SEQUENCER_GEM_VERSION=0.0.7
 ENV SEQUENCER_GEM_VERSION=${SEQUENCER_GEM_VERSION}
 
 MAINTAINER Jeremy Winters jeremy.winters@full360.com
